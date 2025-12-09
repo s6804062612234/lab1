@@ -1,0 +1,19 @@
+#include <stdio.h>
+
+
+int main() {
+	float item1, item2, item3, disc1, disc2, disc3, VAT;
+	
+	scanf("%f", &item1);
+	disc1 = (item1) * 0.95;
+	printf("%f\n", disc1 * 1.07);
+	
+	scanf("%f", &item2);
+	disc2 = (item1 + item2) * 0.85;
+	printf("%f\n", disc2 * 1.07);
+	
+	scanf("%f", &item3);
+	disc3 = (item1 + item2 + item3) * 0.7;
+	printf("%f\n", disc3 * 1.07);
+	
+}
